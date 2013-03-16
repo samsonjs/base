@@ -3,7 +3,7 @@
 
 A simple yet reasonable and useful inheritance system for JavaScript.
 
-The [implementation](/index.js) is just a few dozen lines of code and it is
+The [implementation](/base.js) is just a few dozen lines of code and it is
 well commented. Refer to the code for documentation.
 
 Here is some example code illustrating the use of this system in Node:

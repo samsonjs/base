@@ -52,13 +52,16 @@ Base.extend = function(name) {
 
     // Set up a link to the super object.
     _super: {
-      value: this
+      value: this,
+      enumerable: false,
+      writable: false,
+      configurable: false
     },
 
     // Set up the prototype chain.
     prototype: {
       value: Object.create(this.prototype),
-      enumerable: true,
+      enumerable: false,
       writable: true,
       configurable: true
     }
